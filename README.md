@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alison J Yeatman - CV</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    :root {
+        --bg-color: #f9f9f9;
+        --text-color: #333;
+        --header-bg: #2c3e50;
+        --header-text: #fff;
+        --card-bg: #fff;
+    }
+    body.dark-mode {
+        --bg-color: #121212;
+        --text-color: #f1f1f1;
+        --header-bg: #1f1f1f;
+        --header-text: #f1f1f1;
+        --card-bg: #1e1e1e;
+    }
+    body {
+        background: var(--bg-color);
+        color: var(--text-color);
+        transition: background 0.3s, color 0.3s;
+        scroll-behavior: smooth;
+    }
+    header {
+        background: var(--header-bg);
+        color: var(--header-text);
+        padding: 30px 20px;
+        text-align: center;
+    }
+    section {
+        background: var(--card-bg);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: background 0.3s;
+    }
+    h2 {
+        border-bottom: 2px solid #eee;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        color: var(--header-bg);
+    }
+    .skills span {
+        display: inline-block;
+        background: #ecf0f1;
+        margin: 5px;
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--header-bg);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Alison Yeatman</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+      </ul>
+      <button class="btn btn-light ms-3" onclick="toggleDarkMode()">Dark Mode</button>
+    </div>
+  </div>
+</nav>
+
+<header class="mb-4">
+    <h1>Alison J Yeatman</h1>
+    <p>Service Delivery Manager | Platform Owner | Product Owner (D365, M365)</p>
+    <p>Email: alisonyeatman@gmail.com | LinkedIn: linkedin.com/in/alisonyeatman | Phone: 07563 137559</p>
+</header>
+
+<div class="container">
+    <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>Highly accomplished Service Delivery/Technical Product Manager with expertise in structured digital product delivery and operational improvements in global environments. Proven track record of cost reductions (£58,000 monthly savings) and revenue growth through premium service models. Skilled in ITIL v4, Agile frameworks, and platform ownership (MS Dynamics 365, M365 Azure, Atlassian suite).</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Knowledge</h2>
+        <div class="skills">
+            <span>ITSM: ServiceNow, Zendesk, Freshdesk</span>
+            <span>Microsoft: Dynamics 365 CRM, Power Platform, Power BI</span>
+            <span>M365, Azure, SharePoint</span>
+            <span>Atlassian: Jira, Confluence</span>
+            <span>Google Workspace</span>
+            <span>Automated Testing: Selenium</span>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Key Achievements</h2>
+        <ul>
+            <li>£58,000 cost savings via task automation at Highbourne Group.</li>
+            <li>Migrated 20 UK schools to Dynamics 365 CRM for Cognita portfolio.</li>
+            <li>Implemented telephony services and centralised Parent Enquiry Centre.</li>
+            <li>Rolled out Premium Service at Smoothwall, creating new revenue streams.</li>
+            <li>Integrated global teams at Formpipe, improving pipeline opportunities.</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Highbourne Group</strong> – Head of Platform Operations Manager/Product Owner (Sep 2024 – Present)</li>
+            <li><strong>Cognita Schools</strong> – CRM Dynamics 365 Global Platform Manager/Product Owner (Sep 2022 – Sep 2024)</li>
+            <li><strong>Metalogic</strong> – Head of Customer Support (Jan 2022 – Sep 2022)</li>
+            <li><strong>Smoothwall Ltd</strong> – Head of Premium Service (Nov 2020 – Jan 2022)</li>
+            <li><strong>Formpipe Life Science Software</strong> – Head of Technical Support/Delivery (Jul 2017 – Nov 2020)</li>
+            <li><strong>ERT Nottingham</strong> – Head of Technical Support (Feb 2015 – Jul 2017)</li>
+            <li><strong>Heart Internet</strong> – Head of Customer Support (Sep 2008 – Feb 2015)</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education & Certifications</h2>
+        <p>BA (Hons) Social Policy & Administration, Nottingham University | ITIL v4 Foundation | Microsoft Fundamentals (Dynamics 365, Azure)</p>
+    </section>
+
+    <footer class="text-center py-3">
+        &copy; 2025 Alison J Yeatman | MyCV.pdfDownload CV (PDF)</a>
+    </footer>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
+</script>
+
+</body>
+</html>
