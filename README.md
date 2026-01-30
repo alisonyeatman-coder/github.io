@@ -122,7 +122,7 @@
         <h2>Experience</h2>
         <ul>
             <li><strong>SNG</strong> - Microsoft Bussines Platform Manager (Decemeber - Present)</li>
-            <li><strong>Highbourne Group</strong> – Head of Platform Operations Manager/Product Owner (Sep 2024 – Dec 2025)
+            <li><strong>Highbourne Group</strong> – Head of Platform Operations Manager/Product Owner (Sep 2024 – Dec 2025)<li>
             <li><strong>Cognita Schools</strong> – CRM Dynamics 365 Global Platform Manager/Product Owner (Sep 2022 – Sep 2024)</li>
             <li><strong>Metalogic</strong> – Head of Customer Support (Jan 2022 – Sep 2022)</li>
             <li><strong>Smoothwall Ltd</strong> – Head of Premium Service (Nov 2020 – Jan 2022)</li>
